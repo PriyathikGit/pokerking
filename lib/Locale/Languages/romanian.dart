@@ -33,7 +33,7 @@ Map<String, String> romanian() {
     "leaveTheTable": "Părăsiți masa",
     "addCash": "Adăugați bani",
     "replay": "Redare",
-    "lobby": "Lobby",
+    "home": "Home",
     "tableInformation": "Informații despre tabel",
     "tableName": "Numele mesei",
     "numberOfPlayers": "Numărul de jucători",

@@ -33,7 +33,7 @@ Map<String, String> portuguese() {
     "leaveTheTable": "Deixe a mesa",
     "addCash": "Acrescente dinheiro",
     "replay": "Replay",
-    "lobby": "Salão",
+    "home": "lar",
     "tableInformation": "Informações da tabela",
     "tableName": "Nome da tabela",
     "numberOfPlayers": "Número de jogadores",

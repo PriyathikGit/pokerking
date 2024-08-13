@@ -39,10 +39,10 @@ class LoginHeader extends StatelessWidget {
                   const SizedBox(
                     width: 5,
                   ),
-                  const Icon(
-                    Icons.verified,
-                    color: Colors.white,
-                  )
+                  // const Icon(
+                  //   Icons.verified,
+                  //   color: Colors.white,
+                  // )
                 ],
               ),
             ),

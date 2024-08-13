@@ -33,7 +33,7 @@ Map<String, String> turkish() {
     "leaveTheTable": "Masayı terk etmek",
     "addCash": "Nakit Ekle",
     "replay": "Tekrarlamak",
-    "lobby": "Lobi",
+    "home": "Ev",
     "tableInformation": "Tablo Bilgileri",
     "tableName": "Tablo ismi",
     "numberOfPlayers": "Oyuncu sayısı",

@@ -33,7 +33,7 @@ Map<String, String> arabic() {
     "leaveTheTable": "اترك الجدول",
     "addCash": "أضف نقودا",
     "replay": "إعادة",
-    "lobby": "ردهة",
+    "hoem": "بيت",
     "tableInformation": "معلومات الجدول",
     "tableName": "اسم الطاولة",
     "numberOfPlayers": "عدد اللاعبين",

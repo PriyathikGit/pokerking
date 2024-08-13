@@ -34,7 +34,7 @@ Map<String, String> german() {
     "leaveTheTable": "Verlassen Sie den Tisch",
     "addCash": "Geld hinzufügen",
     "replay": "Wiederholung",
-    "lobby": "Empfangshalle",
+    "home": "heim",
     "tableInformation": "Tabelleninformationen",
     "tableName": "Tabellenname",
     "numberOfPlayers": "Anzahl der Spieler",

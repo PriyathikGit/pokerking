@@ -16,19 +16,25 @@ class LocalDataSource {
   static const String _currentThemeKey = "current_theme_key";
   SharedPreferences? _sharedPreferences;
 
-  _initPref() async {
-    _sharedPreferences ??= await SharedPreferences.getInstance();
-  }
+  _initPref() async => _sharedPreferences ??= await SharedPreferences.getInstance();
 
   Future<String> getCurrentTheme() async {
-    await _initPref();
-    return _sharedPreferences!.containsKey(_currentThemeKey)
-        ? _sharedPreferences!.getString(_currentThemeKey)!
-        : AppConfig.defaultTheme;
+    // await _initPref();
+    // return _sharedPreferences!.containsKey(_currentThemeKey)
+    //     ? _sharedPreferences!.getString(_currentThemeKey)!
+    //     : AppConfig.defaultTheme;
+     final theme = _sharedPreferences?.getString(_currentThemeKey);
+  if (theme != null) {
+    return theme;
+  } else {
+    print("Theme not found, returning default theme.");
+    return AppConfig.defaultTheme;
+  }
   }
 
   Future<bool> setCurrentTheme(String theme) async {
     await _initPref();
     return _sharedPreferences!.setString(_currentThemeKey, theme);
   }
+  
 }

@@ -33,7 +33,7 @@ Map<String, String> indonesian() {
     "leaveTheTable": "Tinggalkan meja",
     "addCash": "Tambahkan uang tunai",
     "replay": "Memutar ulang",
-    "lobby": "Lobi",
+    "home": "rumah",
     "tableInformation": "Informasi tabel",
     "tableName": "Nama Tabel",
     "numberOfPlayers": "Jumlah pemain",

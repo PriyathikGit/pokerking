@@ -33,7 +33,7 @@ Map<String, String> swahili() {
     "leaveTheTable": "Acha meza",
     "addCash": "Ongeza pesa",
     "replay": "Marudio",
-    "lobby": "Kushawishi",
+    "home": "nyumbani",
     "tableInformation": "Habari ya meza",
     "tableName": "Jina la meza",
     "numberOfPlayers": "Idadi ya wachezaji",

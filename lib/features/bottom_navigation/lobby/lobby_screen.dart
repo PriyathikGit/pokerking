@@ -5,12 +5,15 @@ import 'package:pokerking/components/circular_icon_button.dart';
 import 'package:pokerking/components/custom_button.dart';
 import 'package:pokerking/routes/routes.dart';
 import 'package:pokerking/utils/utils.dart';
+import 'package:pokerking/utils/Currency_util.dart';
 
 class LobbyScreen extends StatelessWidget {
   const LobbyScreen({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    String currencySymbol = CurrencyUtils.getCurrencySymbol(context);
+    print(currencySymbol);
     var locale = AppLocalizations.of(context);
     return DefaultTabController(
       length: 2,
@@ -75,7 +78,7 @@ class LobbyScreen extends StatelessWidget {
                                 width: 8,
                               ),
                               Text(
-                                '\$ 50',
+                                '$currencySymbol 50',
                                 style: Theme.of(context).textTheme.titleSmall,
                               ),
                             ],
